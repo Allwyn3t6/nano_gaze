@@ -36,3 +36,7 @@ android.allow_backup = False
 
 # Log level
 log_level = 2
+# Explicit Android SDK location (required for CI)
+android.sdk_path = /home/runner/android-sdk
+android.ndk_path = /home/runner/android-sdk/ndk/25.2.9519653
+
