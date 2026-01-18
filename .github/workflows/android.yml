@@ -32,6 +32,8 @@ jobs:
             zlib1g-dev \
             libffi-dev \
             libssl-dev
+            android-sdk \
+            android-sdk-platform-tools
 
       - name: Install Python packages
         run: |
