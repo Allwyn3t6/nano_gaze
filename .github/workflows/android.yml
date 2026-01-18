@@ -31,12 +31,7 @@ jobs:
             libgles2-mesa-dev \
             zlib1g-dev \
             libffi-dev \
-            libssl-dev
-            cmake \
-            autoconf \
-            automake \
-            libtool
-            
+            libssl-dev            
 
       - name: Install Python packages
         run: |
