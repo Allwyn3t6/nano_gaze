@@ -32,8 +32,11 @@ jobs:
             zlib1g-dev \
             libffi-dev \
             libssl-dev
-            android-sdk \
-            android-sdk-platform-tools
+            cmake \
+            autoconf \
+            automake \
+            libtool
+            
 
       - name: Install Python packages
         run: |
